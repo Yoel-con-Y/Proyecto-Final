@@ -1,6 +1,6 @@
 {
     'name': 'Gestor de Transformaciones',
-    'version': '1.0.0.0.0',
+    'version': '16.0.1.0.0',
     'category': 'Custom',
     'description': 'Este módulo permite gestionar transformaciones de Dragon Ball',
     'author': 'Yoel Francés & Elena Montserrat',
