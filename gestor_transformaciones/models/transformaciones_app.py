@@ -20,11 +20,11 @@ class Transformaciones_Model(models.Model):
         string='Orientación',
         selection=[('norte', 'Norte'), ('sur', 'Sur'), ('este', 'Este'), ('oeste', 'Oeste')])
 
-    '''# Campos adicionales para los widgets
+    # Campos adicionales para los widgets
     color = fields.Char('Color')  # Campo para el widget 'color'
     status = fields.Selection(
         [('draft', 'Borrador'), ('sold', 'Vendido')],
         default='draft', string='Estado')  # Campo para el widget 'statusbar'
-    imagen_vivienda = fields.Binary("Imagen de Vivienda", attachment=True)'''
+    imagen_vivienda = fields.Binary("Imagen de Vivienda", attachment=True)
 
 
