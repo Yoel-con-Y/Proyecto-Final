@@ -10,6 +10,7 @@
        'views/view_transformaciones.xml',
        'security/ir.model.access.csv',
     ],
+    'images': ['static/description/icon.png'],  # Asegura esta línea
     'installable': True,
     'application': True,
     'auto_install': False,
