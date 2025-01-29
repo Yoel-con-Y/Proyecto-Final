@@ -25,7 +25,6 @@ class Transformaciones_Model(models.Model):
     status = fields.Selection(
         [('draft', 'Borrador'), ('sold', 'Vendido')],
         default='draft', string='Estado')  # Campo para el widget 'statusbar'
-    currency_id = fields.Many2one('res.currency', string="Moneda")  # Campo para el widget 'monetary'
     imagen_vivienda = fields.Binary("Imagen de Vivienda", attachment=True)
 
 

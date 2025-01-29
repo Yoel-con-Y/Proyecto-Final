@@ -43,7 +43,6 @@
                 <field name="name"/>
                 <field name="cpostal"/>
                 <field name="precio_venta"/>
-                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
             </tree>
         </field>
     </record>
@@ -79,10 +78,6 @@
                 <group>
                     <!-- Campo de imagen -->
                     <field name="imagen_vivienda" widget="image" string="Imagen de Vivienda" />
-                </group>
-                <group>
-                    <!-- Relación Many2many con las Etiquetas -->
-                    <field name="tag_ids" widget="many2many_tags" string="Etiquetas" options="{'color_field': 'color'}"/>
                 </group>
             </sheet>
         </form>
