@@ -7,8 +7,8 @@
     'website': 'https://www.iespacomolla.es',
     'depends': ['base'],
     'data': [
-       'views/view_transformaciones.xml',
-       'security/ir.model.access.csv',
+       # 'views/view_transformaciones.xml',
+       # 'security/ir.model.access.csv',
     ],
     'installable': True,
     'application': True,
